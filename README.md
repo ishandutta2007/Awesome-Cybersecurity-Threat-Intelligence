@@ -1,6 +1,6 @@
 # Awesome-Cybersecurity-Threat-Intelligence
 
-# Top Cybersecurity & Threat Intelligence Ecosystem
+## Top Cybersecurity & Threat Intelligence Ecosystem
 
 **Curated List of SaaS Platforms & Open-Source GitHub Projects**  
 *Focused on CTI Management, Adversary Tracking & Self-Hosted Intelligence Platforms*  
