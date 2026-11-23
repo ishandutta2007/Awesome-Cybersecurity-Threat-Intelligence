@@ -15,33 +15,27 @@ This repository tracks notable **SaaS platforms** and **open-source projects** f
 Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
 
 ## Table of Contents
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-products)
 - [Open-Source GitHub Projects](#open-source-github-projects)
 - [How to Contribute](#how-to-contribute)
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
+
+The global Cyber Threat Intelligence (CTI) market is estimated at approximately **$11.5B–$20.1B** and is projected to expand past **$50B+** into the 2030s (15–20% CAGR). The market structure is a **hybrid barbell**: it remains **highly fragmented** across specialized point feeds, dark web monitoring, and boutique IOC providers, while simultaneously experiencing **aggressive concentration and platform consolidation** around major cybersecurity titans (e.g., CrowdStrike, Google Cloud/Mandiant, Mastercard/Recorded Future) that bundle CTI directly into broad enterprise SecOps, SIEM, and XDR platforms.
+
 ## SaaS/Hosted Platforms
 
-- **[Recorded Future](https://www.recordedfuture.com/)**  
-  **The largest commercial threat intelligence platform.** Combines open web, dark web, and technical sources into real-time intelligence. **Microsoft Marketplace pricing**: Threat User License at **$50,000/year**; custom plans at **$100,000/year** . Positioned for enterprises wanting comprehensive, analyst-ready intelligence without building collection infrastructure.
-
-- **[CrowdStrike Falcon Intelligence](https://www.crowdstrike.com/)**  
-  Threat intelligence integrated with the Falcon platform. **CDW-G listing**: 12-month Falcon Intelligence Bundle subscription at **~$166.56 per license** (25,000–49,999 license band) . Positioned for existing CrowdStrike customers wanting adversary intelligence alongside endpoint protection.
-
-- **[Mandiant Advantage](https://www.mandiant.com/)**  
-  **Google-owned threat intelligence with frontline adversary knowledge.** Subscription-based pricing with tiered plans varying by monitoring level, response capabilities, and asset count—typically per user or per protected asset, with annual or multi-year agreements . Positioned for organizations wanting intelligence from the team that responds to major breaches.
-
-- **[ThreatConnect](https://threatconnect.com/)**  
-  **Threat intelligence platform with a free edition and paid tiers starting at $45,000.** Features, functionality, and deployment model (private cloud, public cloud, or on-premises) determine the price . Positioned for teams wanting a TIP with built-in analytics and orchestration.
-
-- **[SOCRadar](https://socradar.io/)**  
-  **Extended threat intelligence with published pricing and a freemium tier.** **Cyber Threat Intelligence Essential: $14,750/year** (or $1,625/month); **Advanced Dark Web Monitoring Essential: $4,550/year**; **Business: $9,100/year** . **SOC 2 Type 2 and ISO/IEC 27001 certified** . Positioned for mid-market teams wanting transparent pricing across modules (ASM, Brand Protection, CTI, Dark Web, Supply Chain).
-
-- **[Anomali](https://www.anomali.com/)**  
-  Threat intelligence and security analytics platform. **Quote-based pricing** scoped to usage and team size; free trial available . Positioned for enterprises wanting SIEM-adjacent intelligence analytics.
-
-- **[Flashpoint](https://flashpoint.io/)**  
-  **Deep and dark web intelligence specialist.** Core packages include Cyber Threat Intelligence (illicit groups/sites, tailored reports, API access, account takeover credentials, vulnerability intelligence), Vulnerability, and Physical Security . Claims **482% ROI in 6 months** and **$500M fraud loss avoided per year** . Positioned for teams needing illicit community visibility.
+| Platform | Market Size / Valuation | Starting Pricing | Free Tier / Trial Limits | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **[CrowdStrike Falcon Intelligence](https://www.crowdstrike.com/)** | **~$235B+ Market Cap** (~$5.39B ARR) | **$59.99/device/year** (Falcon Go entry tier; Falcon Intelligence bundle ~$166.56/license) | **15-Day Free Trial** (Full access to core NGAV and threat detection modules; no credit card required) | Adversary intelligence integrated directly with endpoint protection and unified Falcon platform telemetry. |
+| **[Mandiant Advantage](https://www.mandiant.com/)** | **$5.4B Valuation** (Acquired by Google; ~$483M+ ARR pre-acquisition) | **~$75,000–$83,000/year** (Standard entry tier; custom contract scope) | **Permanent Free Tier** (Access limited to basic threat actor/malware profiles & CVE data; includes automatic 14-day full feature trial upgrade upon signup) | Threat intelligence backed by Google Cloud and frontline incident response investigations. |
+| **[Recorded Future](https://www.recordedfuture.com/)** | **$2.65B Valuation** (Acquired by Mastercard; ~$300M ARR) | **$40,000–$50,000/year** (Single module entry; Microsoft Marketplace Threat User License starts at $50,000/year) | **No Free Tier** (14-to-30 day sales-assisted custom enterprise PoC trial available upon request for qualified organizations) | Real-time commercial intelligence platform aggregating open, deep, and dark web intelligence. |
+| **[Flashpoint](https://flashpoint.io/)** | **~$100M ARR** (Venture-backed by Georgian & Greycroft) | **~$57,000/year** (Flashpoint Ignite entry contract median) | **No Free Tier** (Sales-assisted demo and structured enterprise proof-of-concept trial evaluation on request) | Deep and dark web intelligence specialist covering illicit forums, compromised credentials, and ransomware tracking. |
+| **[Anomali](https://www.anomali.com/)** | **~$60M–$65M ARR** ($95M+ VC funding) | **~$90,000–$93,000/year** (ThreatStream base enterprise contract average) | **No Free Tier** (14-day enterprise proof-of-concept evaluation available upon sales approval) | Threat intelligence management and security analytics integrating feeds with enterprise SIEM/EDR. |
+| **[ThreatConnect](https://threatconnect.com/)** | **~$40.4M ARR** ($22M+ VC funding) | **$45,000/year** (Starting TI Ops platform tier; community API starts at $19/mo) | **Permanent Free Community Tier** (Capped at 1–3 user seats, restricted historical data window, and excludes automated integrations) | Threat intelligence operations platform (TIP) featuring built-in analytics, orchestration, and risk quantification. |
+| **[SOCRadar](https://socradar.io/)** | **~$120M–$130M Valuation** (~$30M–$35M ARR; Series B) | **$4,550/year** ($600/month for Advanced Dark Web Monitoring Essential; CTI Essential at $14,750/year) | **Permanent Free Tier** (Restricted to 1 corporate user, 1 corporate domain, 100 auto-discovered digital assets, and excludes API integrations) | Extended threat intelligence (XTI) platform with modular ASM, Dark Web Monitoring, and CTI feeds. |
 
 ## Open-Source GitHub Projects
 
