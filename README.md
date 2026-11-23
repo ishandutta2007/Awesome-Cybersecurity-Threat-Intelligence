@@ -1,31 +1,54 @@
-# Awesome-Cybersecurity-Threat-Intelligence
+# 🛡️ Awesome Cybersecurity Threat Intelligence
 
-## Top Cybersecurity & Threat Intelligence Ecosystem
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Cybersecurity Threat Intelligence Banner" width="100%" />
+</p>
 
-**Curated List of SaaS Platforms & Open-Source GitHub Projects**  
-*Focused on CTI Management, Adversary Tracking & Self-Hosted Intelligence Platforms*  
-**Last updated: March 2026**
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cybersecurity-Threat-Intelligence/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Cybersecurity-Threat-Intelligence?style=flat-square&color=yellow" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cybersecurity-Threat-Intelligence/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Cybersecurity-Threat-Intelligence?style=flat-square&color=blue" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cybersecurity-Threat-Intelligence/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Cybersecurity-Threat-Intelligence?style=flat-square" alt="GitHub Issues" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cybersecurity-Threat-Intelligence/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Cybersecurity & Threat Intelligence**. These tools help security teams collect, structure, analyze, and operationalize threat data—covering everything from commercial intelligence feeds and adversary tracking platforms to open-source TIPs that let you own your intelligence pipeline without per-seat licensing.
+---
 
-**Examples** include Recorded Future, CrowdStrike Falcon Intelligence, Mandiant Advantage, ThreatConnect, MISP, OpenCTI, and IntelOwl (the category leaders).
+## 🎯 Top Cybersecurity & Threat Intelligence Ecosystem
 
-**Open-source emphasis**: This section highlights every major active project for self-hosted threat intelligence management, open-source IOC enrichment, and community-driven intelligence sharing—ideal for security teams seeking data sovereignty and avoiding six-figure enterprise contracts. The open-source landscape is genuinely mature: **MISP** is the de facto standard for intelligence sharing with ATT&CK and TLP galaxies built in , **OpenCTI** provides structured CTI knowledge management with STIX/TAXII interoperability , and **IntelOwl** delivers scalable IOC enrichment across dozens of analyzers .
+> ⚡ **Curated List of SaaS Platforms & Open-Source GitHub Projects**  
+> 🔍 *Focused on CTI Management, Adversary Tracking, IOC Enrichment & Self-Hosted Intelligence Platforms (TIPs)*  
+> 📅 **Last updated: March 2026**
 
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
+This repository tracks top-tier **SaaS platforms** and **open-source projects** in **Cybersecurity & Cyber Threat Intelligence (CTI)**. These tools empower Security Operations Centers (SOCs), incident responders, and threat analysts to harvest, normalize, enrich, correlate, and operationalize adversary telemetry—ranging from enterprise intelligence feeds and dark web monitoring suites to sovereign, self-hosted Threat Intelligence Platforms (TIPs).
 
-## Table of Contents
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saas-products)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
+### 🌟 Key Highlights & Architectural Focus
+- 📡 **STIX 2.1 & TAXII Standards**: Structured cyber threat modeling, sharing, and ecosystem interoperability.
+- 🗂️ **Adversary & TTP Mapping**: Native integration with MITRE ATT&CK®, CAPEC, and TLP classification.
+- 🔍 **Automated IOC Enrichment**: Multi-engine observable enrichment (IP, domain, hash, URL) across threat registries.
+- 🏢 **Data Sovereignty vs Managed Feeds**: Transparent comparison of enterprise SaaS giants vs community self-hosted TIPs.
 
-## Sector Overview & Market Dynamics
+---
+
+## 📑 Table of Contents
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS / Hosted Platforms](#️-saas--hosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support](#-support)
+- [📈 Star History](#-star-history)
+- [⚖️ Disclaimer](#️-disclaimer)
+
+---
+
+## 📊 Sector Overview & Market Dynamics
 
 The global Cyber Threat Intelligence (CTI) market is estimated at approximately **$11.5B–$20.1B** and is projected to expand past **$50B+** into the 2030s (15–20% CAGR). The market structure is a **hybrid barbell**: it remains **highly fragmented** across specialized point feeds, dark web monitoring, and boutique IOC providers, while simultaneously experiencing **aggressive concentration and platform consolidation** around major cybersecurity titans (e.g., CrowdStrike, Google Cloud/Mandiant, Mastercard/Recorded Future) that bundle CTI directly into broad enterprise SecOps, SIEM, and XDR platforms.
 
-## SaaS/Hosted Platforms
+---
+
+## ☁️ SaaS / Hosted Platforms
 
 | Platform | Market Size / Valuation | Starting Pricing | Free Tier / Trial Limits | Description |
 | :--- | :--- | :--- | :--- | :--- |
@@ -37,44 +60,83 @@ The global Cyber Threat Intelligence (CTI) market is estimated at approximately 
 | **[ThreatConnect](https://threatconnect.com/)** | **~$40.4M ARR** ($22M+ VC funding) | **$45,000/year** (Starting TI Ops platform tier; community API starts at $19/mo) | **Permanent Free Community Tier** (Capped at 1–3 user seats, restricted historical data window, and excludes automated integrations) | Threat intelligence operations platform (TIP) featuring built-in analytics, orchestration, and risk quantification. |
 | **[SOCRadar](https://socradar.io/)** | **~$120M–$130M Valuation** (~$30M–$35M ARR; Series B) | **$4,550/year** ($600/month for Advanced Dark Web Monitoring Essential; CTI Essential at $14,750/year) | **Permanent Free Tier** (Restricted to 1 corporate user, 1 corporate domain, 100 auto-discovered digital assets, and excludes API integrations) | Extended threat intelligence (XTI) platform with modular ASM, Dark Web Monitoring, and CTI feeds. |
 
-## Open-Source GitHub Projects
+---
 
-- **[MISP](https://github.com/MISP/MISP)**  
-  **The de facto standard open-source threat intelligence sharing platform.** **Free and open standards**—software, data format, and API are all open . **Stores IOCs in a structured manner** with correlation, automated exports for IDS/SIEM (STIX, OpenIOC), and MISP-to-MISP synchronization . **Community-maintained galaxies and taxonomies** include **MITRE ATT&CK, TLP, Exploit-Kit, Ransomware, Threat Actor, and sector-specific models** . **PyMISP** Python library for programmatic access; **MISP modules** extend with expansion, import, and export services . **Latest release: MISP 2.5.47** with PostgreSQL support, AI-assisted workflows, and the Overmind interface . **Best for organizations wanting the most widely adopted intelligence sharing platform** with structured data and community trust groups.
+## 💻 Open-Source GitHub Projects
 
-- **[OpenCTI](https://github.com/OpenCTI-Platform/opencti)**  
-  **The leading open-source platform for structured cyber threat intelligence knowledge management.** **Created to structure, store, organize, and visualize technical and non-technical information about cyber threats** . **STIX/TAXII native**—designed for interoperability and intelligence sharing . Positioned for teams wanting a modern, graph-based CTI platform that goes beyond IOC storage into knowledge modeling . **Best for organizations wanting a comprehensive CTI knowledge base** with relationship mapping and visualization.
+Sorted descending by GitHub stargazers count:
 
-- **[IntelOwl](https://github.com/intelowlproject/IntelOwl)**  
-  **The most scalable open-source IOC enrichment platform.** **Integrates dozens of analyzers**—VirusTotal, AbuseIPDB, GreyNoise, Shodan, AlienVault OTX, MISP, and many more . **Enriches files and observables** (IP, domain, URL, hash) via a single API request . **REST API** (Django/Python), built-in GUI with dashboards and visualizations, and **official client libraries** (`pyintelowl`, `go-intelowl`) . **Modular plugin framework**: analyzers (retrieve/generate intel), connectors (export to MISP/OpenCTI), pivots (chain analysis), visualizers, ingestors, and playbooks . **Best for SOC teams wanting to automate common enrichment jobs** without building each integration manually.
+- ### 🕷️ **[SpiderFoot](https://github.com/smicallef/spiderfoot)** [![GitHub stars](https://img.shields.io/github/stars/smicallef/spiderfoot?style=social&color=white)](https://github.com/smicallef/spiderfoot/stargazers)  
+  **Automated OSINT and external attack surface intelligence collection.** Integrates with over 200+ public and private threat data sources. Gathers technical telemetry on IP addresses, domain names, e-mail addresses, subnets, and hashes to identify data leaks, vulnerabilities, and adversary infrastructure.
 
-- **[Yeti](https://github.com/yeti-platform/yeti)**  
-  **Open-source platform at the CTI-DFIR intersection.** **Apache-2.0 licensed**, Python, **1,949 GitHub stars**, actively maintained (pushed 27 days ago) . **"Your Everyday Threat Intelligence"**—focused on making threat intelligence actionable for incident responders and analysts . **Best for teams wanting a lightweight, DFIR-oriented intelligence platform** that bridges threat data and investigation workflows.
+- ### 🧠 **[OpenCTI](https://github.com/OpenCTI-Platform/opencti)** [![GitHub stars](https://img.shields.io/github/stars/OpenCTI-Platform/opencti?style=social&color=white)](https://github.com/OpenCTI-Platform/opencti/stargazers)  
+  **The leading open-source knowledge management platform for cyber threat intelligence.** Built natively on **STIX 2.1** and GraphQL, OpenCTI models complex relationships between threat actors, campaigns, incident observables, malware families, and infrastructure. Features an extensive ecosystem of ingestion connectors, automated playbooks, and visual relationship graphs.
 
-### Additional Strong Open-Source Options
+- ### 🛡️ **[MISP (Malware Information Sharing Platform)](https://github.com/MISP/MISP)** [![GitHub stars](https://img.shields.io/github/stars/MISP/MISP?style=social&color=white)](https://github.com/MISP/MISP/stargazers)  
+  **The international standard open-source platform for threat sharing and IOC correlation.** Open software, formats, and REST APIs for exchanging indicators of compromise, vulnerabilities, and financial fraud data across trusted circles. Includes pre-built taxonomies and galaxies for **MITRE ATT&CK**, **TLP**, Ransomware, and Threat Actors, with native sync between distributed MISP instances.
 
-- **Threat Bus** — **Dissemination layer for distributing selected indicators to detection systems**. Not a full TIP—it complements MISP or OpenCTI by handling the "last mile" of intelligence distribution. **Recent maintenance activity appears limited**—evaluate project activity before new production deployments [citation:1].
+- ### 🦉 **[IntelOwl](https://github.com/intelowlproject/IntelOwl)** [![GitHub stars](https://img.shields.io/github/stars/intelowlproject/IntelOwl?style=social&color=white)](https://github.com/intelowlproject/IntelOwl/stargazers)  
+  **Scalable, asynchronous IOC enrichment engine.** Single-API orchestrator that queries dozens of external analyzers (VirusTotal, AbuseIPDB, GreyNoise, Shodan, OTX, MISP) to enrich observables (IPs, domains, hashes, files) in seconds. Features an extensible plugin architecture with playbooks, pivots, ingestion queues, and modern dashboards.
 
-- **TheHive** — **Collaborative incident investigation and case management platform**. Handles cases, alerts, tasks, observables, and workflows; imports from MISP. **⚠️ TheHive 3 and 4 are no longer maintained or publicly distributed**—the latest version is commercially distributed. Not recommended as an open-source TIP [citation:1].
+- ### 🗺️ **[MITRE CTI (ATT&CK in STIX)](https://github.com/mitre/cti)** [![GitHub stars](https://img.shields.io/github/stars/mitre/cti?style=social&color=white)](https://github.com/mitre/cti/stargazers)  
+  **Official MITRE Cyber Threat Intelligence repository expressed in STIX 2.0 / 2.1.** Provides structured machine-readable knowledge bases for **Enterprise ATT&CK**, **Mobile ATT&CK**, and **ICS ATT&CK**, enabling security tools to programmatically correlate observed adversarial techniques, tactics, and mitigations.
 
-**Frameworks for building custom systems**: Combine **MISP** for intelligence sharing and IOC storage, **OpenCTI** for knowledge management and visualization, and **IntelOwl** for automated enrichment. Use **Threat Bus** to distribute indicators to detection systems if needed—but validate its maintenance status first [citation:1].
+- ### 🚨 **[FIR (Fast Incident Response)](https://github.com/certsocietegenerale/FIR)** [![GitHub stars](https://img.shields.io/github/stars/certsocietegenerale/FIR?style=social&color=white)](https://github.com/certsocietegenerale/FIR/stargazers)  
+  **Cybersecurity incident response and investigation platform designed for CSIRTs and SOCs.** Created by CERT Société Générale, FIR tracks security incidents, affected business assets, and associated threat indicators, serving as an actionable operational bridge between incoming threat intelligence and active remediation.
 
-## How to Contribute
+- ### 🐾 **[Yeti](https://github.com/yeti-platform/yeti)** [![GitHub stars](https://img.shields.io/github/stars/yeti-platform/yeti?style=social&color=white)](https://github.com/yeti-platform/yeti/stargazers)  
+  **Your Everyday Threat Intelligence platform tailored for DFIR analysts.** Designed as a unified repository to organize observables, TTPs, and indicators originating from incident response triage. Automatically enriches data, resolves domain histories, and outputs structured intelligence feeds directly consumed by SIEMs and detection systems.
 
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-4. Submit PR with a short explanation.
+- ### ⚓ **[Harpoon](https://github.com/Te-k/harpoon)** [![GitHub stars](https://img.shields.io/github/stars/Te-k/harpoon?style=social&color=white)](https://github.com/Te-k/harpoon/stargazers)  
+  **CLI Swiss Army knife for threat intelligence analysts and OSINT investigations.** Automates command-line queries across over 50 threat intelligence platforms and search engines including VirusTotal, Censys, Shodan, SecurityTrails, AlienVault OTX, URLhaus, and Hybrid Analysis.
 
-Star the repo if you find it useful!
+- ### 🔍 **[AIL Framework](https://github.com/AIL-project/ail-framework)** [![GitHub stars](https://img.shields.io/github/stars/AIL-project/ail-framework?style=social&color=white)](https://github.com/AIL-project/ail-framework/stargazers)  
+  **Analysis Information Leak framework for unstructured data streams.** Open-source modular framework developed to crawl, parse, and analyze potential data leaks, paste sites, and dark web/Tor hidden services in real time, detecting credential exposure, sensitive tokens, and indicators.
 
-## Disclaimer
+- ### 📥 **[ThreatIngestor](https://github.com/InQuest/ThreatIngestor)** [![GitHub stars](https://img.shields.io/github/stars/InQuest/ThreatIngestor?style=social&color=white)](https://github.com/InQuest/ThreatIngestor/stargazers)  
+  **Automated threat intelligence extraction and aggregation pipeline.** Ingests unstructured threat data from Twitter/X, RSS feeds, GitHub repositories, and email alerts, extracts IOCs (IPs, domains, hashes, CVEs, YARA rules), and automatically exports structured indicators into MISP, OpenCTI, or custom webhook endpoints.
 
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- Threat intelligence platforms handle sensitive indicators and adversary data; enforce access controls and validate intelligence quality before operationalizing. **A $0 license does not mean $0 TCO**—deployment, integrations, maintenance, analyst time, and training all count [citation:1].
-- **Commercial pricing is opaque and varies significantly.** Recorded Future's Microsoft Marketplace listing shows **$50,000–$100,000/year** depending on license type [citation:7]. ThreatConnect starts at **$45,000** [citation:10]. SOCRadar publishes transparent pricing with a **freemium tier** [citation:12]. **Open-source TIPs (MISP, OpenCTI) eliminate license costs but shift burden to engineering**—the real question is whether your team has the capacity to operate, secure, and maintain the platform as intelligence volume and integrations grow [citation:1]. **TheHive is no longer an open-source option**—versions 3 and 4 are unmaintained, and the current version is commercial [citation:1]. Validate whether you need managed intelligence (Recorded Future, Mandiant) or a self-hosted pipeline (MISP, OpenCTI, IntelOwl) before committing.
+- ### 🧩 **[MISP Modules](https://github.com/MISP/misp-modules)** [![GitHub stars](https://img.shields.io/github/stars/MISP/misp-modules?style=social&color=white)](https://github.com/MISP/misp-modules/stargazers)  
+  **Autonomous expansion, enrichment, import, and export microservices for MISP.** Extends core MISP with dozens of microservices for on-the-fly indicator expansion (DNS, WHOIS, VirusTotal, passive SSL, PDF/STIX import/export), maximizing contextual threat data depth.
 
 ---
 
-**Made for SOC analysts, CTI researchers, and organizations building intelligence-driven defense.**  
-Let's make cybersecurity and threat intelligence more open, structured, and actionable.
+## 🤝 How to Contribute
+
+1. 🍴 Fork the repository.
+2. 📝 Add or update entries in `README.md` (ensure factual accuracy, current pricing, and official repository links).
+3. 📌 Follow the existing table/list structure and include star counts/badges where applicable.
+4. 🚀 Submit a Pull Request with a clear description of changes.
+
+---
+
+## 💖 Support
+
+Thank you so much for exploring and supporting **Awesome Cybersecurity Threat Intelligence**! 🙏
+
+If you find this repository valuable for your security research, SOC operations, or threat intelligence engineering:
+- ⭐ **Star this repository** to help others discover it!
+- 🍴 **Fork it** to customize it for your team or contribute new tools.
+- 📢 **Share it** with fellow infosec professionals, analysts, and cybersecurity communities.
+- ☕ **Buy a coffee / Sponsor**: If you would like to support ongoing maintenance and new threat intelligence research lists, please consider sponsoring via the **[GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007)**. Every bit of support is deeply appreciated!
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Cybersecurity-Threat-Intelligence&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Cybersecurity-Threat-Intelligence&type=date&legend=top-left)
+
+---
+
+## ⚖️ Disclaimer
+
+- This repository is a **community-curated index** compiled for informational, educational, and operational defense purposes only.
+- Mention of specific commercial products or open-source repositories does not constitute an official endorsement.
+- **Total Cost of Ownership (TCO)**: While open-source TIPs (MISP, OpenCTI) eliminate software licensing fees, infrastructure hosting, maintenance, connector development, and analyst overhead must be accounted for.
+- Commercial pricing is subject to vendor negotiation, usage tiers, and contract renewals. Please verify directly with vendors before procurement.
+
+---
+
+<p align="center">
+  <b>Built for SOC analysts, CTI researchers, and cybersecurity engineers worldwide. 🛡️</b>
+</p>
