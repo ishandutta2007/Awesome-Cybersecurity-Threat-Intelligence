@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Cybersecurity-Threat-Intelligence/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Cybersecurity-Threat-Intelligence?style=flat-square&color=yellow" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cybersecurity-Threat-Intelligence/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Cybersecurity-Threat-Intelligence?style=flat-square&color=yellow" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Cybersecurity-Threat-Intelligence/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Cybersecurity-Threat-Intelligence?style=flat-square&color=blue" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Cybersecurity-Threat-Intelligence/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Cybersecurity-Threat-Intelligence?style=flat-square" alt="GitHub Issues" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Cybersecurity-Threat-Intelligence/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="License" /></a>
@@ -66,37 +66,37 @@ The global Cyber Threat Intelligence (CTI) market is estimated at approximately 
 
 Sorted descending by GitHub stargazers count:
 
-- ### 🕷️ **[SpiderFoot](https://github.com/smicallef/spiderfoot)** [![GitHub stars](https://img.shields.io/github/stars/smicallef/spiderfoot?style=social&color=white)](https://github.com/smicallef/spiderfoot/stargazers)  
+- ### 🕷️ **[SpiderFoot](https://github.com/smicallef/spiderfoot)** [![GitHub_Stars](https://img.shields.io/github/stars/smicallef/spiderfoot?style=social&color=white)](https://github.com/smicallef/spiderfoot/stargazers)  
   **Automated OSINT and external attack surface intelligence collection.** Integrates with over 200+ public and private threat data sources. Gathers technical telemetry on IP addresses, domain names, e-mail addresses, subnets, and hashes to identify data leaks, vulnerabilities, and adversary infrastructure.
 
-- ### 🧠 **[OpenCTI](https://github.com/OpenCTI-Platform/opencti)** [![GitHub stars](https://img.shields.io/github/stars/OpenCTI-Platform/opencti?style=social&color=white)](https://github.com/OpenCTI-Platform/opencti/stargazers)  
+- ### 🧠 **[OpenCTI](https://github.com/OpenCTI-Platform/opencti)** [![GitHub_Stars](https://img.shields.io/github/stars/OpenCTI-Platform/opencti?style=social&color=white)](https://github.com/OpenCTI-Platform/opencti/stargazers)  
   **The leading open-source knowledge management platform for cyber threat intelligence.** Built natively on **STIX 2.1** and GraphQL, OpenCTI models complex relationships between threat actors, campaigns, incident observables, malware families, and infrastructure. Features an extensive ecosystem of ingestion connectors, automated playbooks, and visual relationship graphs.
 
-- ### 🛡️ **[MISP (Malware Information Sharing Platform)](https://github.com/MISP/MISP)** [![GitHub stars](https://img.shields.io/github/stars/MISP/MISP?style=social&color=white)](https://github.com/MISP/MISP/stargazers)  
+- ### 🛡️ **[MISP (Malware Information Sharing Platform)](https://github.com/MISP/MISP)** [![GitHub_Stars](https://img.shields.io/github/stars/MISP/MISP?style=social&color=white)](https://github.com/MISP/MISP/stargazers)  
   **The international standard open-source platform for threat sharing and IOC correlation.** Open software, formats, and REST APIs for exchanging indicators of compromise, vulnerabilities, and financial fraud data across trusted circles. Includes pre-built taxonomies and galaxies for **MITRE ATT&CK**, **TLP**, Ransomware, and Threat Actors, with native sync between distributed MISP instances.
 
-- ### 🦉 **[IntelOwl](https://github.com/intelowlproject/IntelOwl)** [![GitHub stars](https://img.shields.io/github/stars/intelowlproject/IntelOwl?style=social&color=white)](https://github.com/intelowlproject/IntelOwl/stargazers)  
+- ### 🦉 **[IntelOwl](https://github.com/intelowlproject/IntelOwl)** [![GitHub_Stars](https://img.shields.io/github/stars/intelowlproject/IntelOwl?style=social&color=white)](https://github.com/intelowlproject/IntelOwl/stargazers)  
   **Scalable, asynchronous IOC enrichment engine.** Single-API orchestrator that queries dozens of external analyzers (VirusTotal, AbuseIPDB, GreyNoise, Shodan, OTX, MISP) to enrich observables (IPs, domains, hashes, files) in seconds. Features an extensible plugin architecture with playbooks, pivots, ingestion queues, and modern dashboards.
 
-- ### 🗺️ **[MITRE CTI (ATT&CK in STIX)](https://github.com/mitre/cti)** [![GitHub stars](https://img.shields.io/github/stars/mitre/cti?style=social&color=white)](https://github.com/mitre/cti/stargazers)  
+- ### 🗺️ **[MITRE CTI (ATT&CK in STIX)](https://github.com/mitre/cti)** [![GitHub_Stars](https://img.shields.io/github/stars/mitre/cti?style=social&color=white)](https://github.com/mitre/cti/stargazers)  
   **Official MITRE Cyber Threat Intelligence repository expressed in STIX 2.0 / 2.1.** Provides structured machine-readable knowledge bases for **Enterprise ATT&CK**, **Mobile ATT&CK**, and **ICS ATT&CK**, enabling security tools to programmatically correlate observed adversarial techniques, tactics, and mitigations.
 
-- ### 🚨 **[FIR (Fast Incident Response)](https://github.com/certsocietegenerale/FIR)** [![GitHub stars](https://img.shields.io/github/stars/certsocietegenerale/FIR?style=social&color=white)](https://github.com/certsocietegenerale/FIR/stargazers)  
+- ### 🚨 **[FIR (Fast Incident Response)](https://github.com/certsocietegenerale/FIR)** [![GitHub_Stars](https://img.shields.io/github/stars/certsocietegenerale/FIR?style=social&color=white)](https://github.com/certsocietegenerale/FIR/stargazers)  
   **Cybersecurity incident response and investigation platform designed for CSIRTs and SOCs.** Created by CERT Société Générale, FIR tracks security incidents, affected business assets, and associated threat indicators, serving as an actionable operational bridge between incoming threat intelligence and active remediation.
 
-- ### 🐾 **[Yeti](https://github.com/yeti-platform/yeti)** [![GitHub stars](https://img.shields.io/github/stars/yeti-platform/yeti?style=social&color=white)](https://github.com/yeti-platform/yeti/stargazers)  
+- ### 🐾 **[Yeti](https://github.com/yeti-platform/yeti)** [![GitHub_Stars](https://img.shields.io/github/stars/yeti-platform/yeti?style=social&color=white)](https://github.com/yeti-platform/yeti/stargazers)  
   **Your Everyday Threat Intelligence platform tailored for DFIR analysts.** Designed as a unified repository to organize observables, TTPs, and indicators originating from incident response triage. Automatically enriches data, resolves domain histories, and outputs structured intelligence feeds directly consumed by SIEMs and detection systems.
 
-- ### ⚓ **[Harpoon](https://github.com/Te-k/harpoon)** [![GitHub stars](https://img.shields.io/github/stars/Te-k/harpoon?style=social&color=white)](https://github.com/Te-k/harpoon/stargazers)  
+- ### ⚓ **[Harpoon](https://github.com/Te-k/harpoon)** [![GitHub_Stars](https://img.shields.io/github/stars/Te-k/harpoon?style=social&color=white)](https://github.com/Te-k/harpoon/stargazers)  
   **CLI Swiss Army knife for threat intelligence analysts and OSINT investigations.** Automates command-line queries across over 50 threat intelligence platforms and search engines including VirusTotal, Censys, Shodan, SecurityTrails, AlienVault OTX, URLhaus, and Hybrid Analysis.
 
-- ### 🔍 **[AIL Framework](https://github.com/AIL-project/ail-framework)** [![GitHub stars](https://img.shields.io/github/stars/AIL-project/ail-framework?style=social&color=white)](https://github.com/AIL-project/ail-framework/stargazers)  
+- ### 🔍 **[AIL Framework](https://github.com/AIL-project/ail-framework)** [![GitHub_Stars](https://img.shields.io/github/stars/AIL-project/ail-framework?style=social&color=white)](https://github.com/AIL-project/ail-framework/stargazers)  
   **Analysis Information Leak framework for unstructured data streams.** Open-source modular framework developed to crawl, parse, and analyze potential data leaks, paste sites, and dark web/Tor hidden services in real time, detecting credential exposure, sensitive tokens, and indicators.
 
-- ### 📥 **[ThreatIngestor](https://github.com/InQuest/ThreatIngestor)** [![GitHub stars](https://img.shields.io/github/stars/InQuest/ThreatIngestor?style=social&color=white)](https://github.com/InQuest/ThreatIngestor/stargazers)  
+- ### 📥 **[ThreatIngestor](https://github.com/InQuest/ThreatIngestor)** [![GitHub_Stars](https://img.shields.io/github/stars/InQuest/ThreatIngestor?style=social&color=white)](https://github.com/InQuest/ThreatIngestor/stargazers)  
   **Automated threat intelligence extraction and aggregation pipeline.** Ingests unstructured threat data from Twitter/X, RSS feeds, GitHub repositories, and email alerts, extracts IOCs (IPs, domains, hashes, CVEs, YARA rules), and automatically exports structured indicators into MISP, OpenCTI, or custom webhook endpoints.
 
-- ### 🧩 **[MISP Modules](https://github.com/MISP/misp-modules)** [![GitHub stars](https://img.shields.io/github/stars/MISP/misp-modules?style=social&color=white)](https://github.com/MISP/misp-modules/stargazers)  
+- ### 🧩 **[MISP Modules](https://github.com/MISP/misp-modules)** [![GitHub_Stars](https://img.shields.io/github/stars/MISP/misp-modules?style=social&color=white)](https://github.com/MISP/misp-modules/stargazers)  
   **Autonomous expansion, enrichment, import, and export microservices for MISP.** Extends core MISP with dozens of microservices for on-the-fly indicator expansion (DNS, WHOIS, VirusTotal, passive SSL, PDF/STIX import/export), maximizing contextual threat data depth.
 
 ---
@@ -105,7 +105,7 @@ Sorted descending by GitHub stargazers count:
 
 1. 🍴 Fork the repository.
 2. 📝 Add or update entries in `README.md` (ensure factual accuracy, current pricing, and official repository links).
-3. 📌 Follow the existing table/list structure and include star counts/badges where applicable.
+3. 📌 Follow the existing table/list structure and include Stars_Counts/badges where applicable.
 4. 🚀 Submit a Pull Request with a clear description of changes.
 
 ---
